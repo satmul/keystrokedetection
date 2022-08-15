@@ -41,7 +41,7 @@ optional arguments:
 required named arguments:
   -t THRESHOLD, --threshold THRESHOLD
                         Threshold for Keystroke Injection Detection
-                      
+  -run RUN, --run RUN   Always Run                      
 ```
 
 Every keystroke will be logged at the logs folder with file name format [date]_[time]_log.txt
