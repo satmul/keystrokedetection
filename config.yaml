@@ -1,0 +1,48 @@
+BANNED_DEVICE:  
+- webcam
+- button
+- radio
+- virtual core xtest keyboard
+- video
+- bus
+- hotkey
+
+BLACKLIST_WORD:
+- cmd
+- etc
+- wget
+- nc
+- netcat
+- sh
+- shell
+- bash
+- sudo
+- terminal
+- ps1
+- powershell
+- echo
+- del
+- rd
+- attrib
+- start
+- reg
+- ren
+- rm
+- /dev/sda
+- '>'
+- '^'
+- mv
+- crontab
+- history
+- dd
+- /dev/null
+- ':(){:|:&};:'
+- iex
+- iwr
+- invoke
+
+WHITELIST_DEVICE:
+- vendor_id: "16c0" # MCS Digistump DigiSpark disconnected
+  device_id: "27db"
+- vendor_id: "0001" # Linux Foundation
+  device_id: "0001"
